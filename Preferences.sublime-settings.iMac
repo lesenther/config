@@ -1,0 +1,43 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Clouds Midnight (SL).tmTheme",
+	"convert_tabs_to_spaces": true,
+	"copy_with_empty_selection": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".gitignore"
+	],
+	"folder_exclude_patterns":
+	[
+		"_notes",
+		".git"
+	],
+	"font_face": "PragmataPro",
+	"font_options": "subpixel_antialias",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Github Tools",
+		"SASS Build",
+		"SublimeLinter-phplint",
+		"Vintage",
+		"Xdebug Client"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"scroll_speed": 5.0,
+	"tab_size": 2,
+	"theme": "Freesia.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
+
