@@ -11,7 +11,10 @@
 	"folder_exclude_patterns":
 	[
 		"_notes",
-		".git"
+		".git",
+		".hg",
+		".phpintel",
+		".ebextensions"
 	],
 	"font_face": "PragmataPro",
 	"font_options": "subpixel_antialias",
@@ -20,11 +23,15 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Github Tools",
-		"SASS Build",
-		"SublimeLinter-phplint",
 		"Vintage",
-		"Xdebug Client"
+		"Xdebug Client",
+		"SublimeLinter-jscs",
+		"SublimeLinter-phplint",
+		"SublimeLinter-phpcs",
+		"PHPTools",
+		"SASS Build",
+		"phpfmt",
+		"PHPUnit"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -34,10 +41,10 @@
 	],
 	"scroll_past_end": true,
 	"scroll_speed": 5.0,
+	"tab_completions": true,
 	"tab_size": 2,
 	"theme": "Freesia.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
-
