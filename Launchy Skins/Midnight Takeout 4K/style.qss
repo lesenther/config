@@ -1,0 +1,81 @@
+#launchy {
+}
+
+#workingAnimation {
+	qproperty-geometry: rect(474 54 16 16);
+}
+
+#input {
+	font:  32px "PragmataPro";
+	border-width: 0px;
+	background-color: rgba(0,244,120,0%);
+	border-style: solid;
+	color: white;
+	qproperty-alignment: AlignLeft;
+	qproperty-geometry: rect(41 34 418 36)
+}
+
+#output {
+	font:  22px "PragmataPro";
+	border-width: 0px;
+	background-color: rgba(150,150,150,0%);
+	border-style: solid;
+	color: white;
+	qproperty-alignment: AlignLeft;
+	qproperty-geometry: rect(43 70 418 36);
+}
+
+#outputIcon {
+	qproperty-geometry: rect(460 39 46 46);
+}
+
+#alternatives {
+	padding: 5px 5px 5px 5px;
+	font:  22px "PragmataPro";
+	background-color: rgb(37,37,38);
+    alternate-background-color: rgb(37,37,38);	
+	color: rgb(255,255,255);
+	border-style: solid;
+	border-width: 0px;
+	border-color: rgb(0,0,0);
+	qproperty-geometry: rect(8 114 525 250);
+}
+
+#alternativesPath {
+	font:  18px "PragmataPro";
+	color: rgb(255,255,255);
+}
+
+QScrollBar#altScroll:vertical {
+	image: url(Scr.png);
+	width: 16px;
+	margin: 16px 0px 16px 16px;
+}
+
+QScrollBar#altScroll::handle:vertical {
+	background-color: rgb(30,30,30);
+}
+
+QScrollBar#altScroll::sub-line:vertical {
+	width: 16px;
+	height: 16px;
+	subcontrol-position: top;
+	subcontrol-origin: margin; 
+	image: url(ScrU.png);
+}
+
+QScrollBar#altScroll::add-page:vertical {
+	background: url(Scr.png);
+}
+
+QScrollBar#altScroll::sub-page:vertical {
+	background: url(Scr.png);
+}
+
+QScrollBar#altScroll::add-line:vertical {
+	width: 16px;
+	height: 16px; 
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+	image: url(ScrD.png);
+}
