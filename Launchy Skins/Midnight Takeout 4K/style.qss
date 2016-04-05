@@ -6,7 +6,7 @@
 }
 
 #input {
-	font:  32px "PragmataPro";
+	font:  32px "PragmataPro" Consolas monospace;
 	border-width: 0px;
 	background-color: rgba(0,244,120,0%);
 	border-style: solid;
@@ -16,7 +16,7 @@
 }
 
 #output {
-	font:  22px "PragmataPro";
+	font:  22px "PragmataPro" Consolas monospace;
 	border-width: 0px;
 	background-color: rgba(150,150,150,0%);
 	border-style: solid;
@@ -31,9 +31,9 @@
 
 #alternatives {
 	padding: 5px 5px 5px 5px;
-	font:  22px "PragmataPro";
+	font:  22px "PragmataPro" Consolas monospace;
 	background-color: rgb(37,37,38);
-    alternate-background-color: rgb(37,37,38);	
+    alternate-background-color: rgb(37,37,38);
 	color: rgb(255,255,255);
 	border-style: solid;
 	border-width: 0px;
@@ -42,7 +42,7 @@
 }
 
 #alternativesPath {
-	font:  18px "PragmataPro";
+	font:  18px "PragmataPro" Consolas monospace;
 	color: rgb(255,255,255);
 }
 
@@ -60,7 +60,7 @@ QScrollBar#altScroll::sub-line:vertical {
 	width: 16px;
 	height: 16px;
 	subcontrol-position: top;
-	subcontrol-origin: margin; 
+	subcontrol-origin: margin;
 	image: url(ScrU.png);
 }
 
@@ -74,7 +74,7 @@ QScrollBar#altScroll::sub-page:vertical {
 
 QScrollBar#altScroll::add-line:vertical {
 	width: 16px;
-	height: 16px; 
+	height: 16px;
 	subcontrol-position: bottom;
 	subcontrol-origin: margin;
 	image: url(ScrD.png);
